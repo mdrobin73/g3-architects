@@ -1,7 +1,95 @@
 /* Google Font - Work Sans */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: "Work Sans", sans-serif;
 }
 
+p{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn-primary{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 8px;
+    max-width: 180px;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgba(255, 144, 14, 10%)
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.nav h2{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+.nav > nav > ul{
+    display: flex;
+    gap: 80px;
+}
+
+.nav > nav > ul > li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.nav > nav > ul > li > a {
+    text-decoration: none;
+    color: #424242;
+}
+
+
+.banner-content{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.banner-content h1{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-content p{
+    margin: 25px 0px;
+}
+
+.banner-image{
+    margin-top: 50px;
+}
+
+.banner-image img{
+    width: 100%;
+}
