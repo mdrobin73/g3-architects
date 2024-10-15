@@ -37,14 +37,15 @@ p{
 
 /* header styles */
 header{
-    background-color: rgba(255, 144, 14, 10%)
+    background-color: rgba(255, 144, 14, 10%);
+    padding: 40px 0px;
 }
 
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 40px;
+    
 }
 
 .nav h2{
@@ -95,3 +96,50 @@ header{
 .banner-image img{
     width: 100%;
 }
+
+
+/* main > teams styles */
+.team-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.team-contents{
+    max-width: 537px;
+}
+
+.team-contents h2{
+    word-spacing: 8px;
+}
+
+.team-contents h2 .span-one{
+    color: #727272;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.team-contents h2 .span-two{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+.team-contents h2 .span-three{
+    color: #FF900E;
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+.team-contents p{
+    margin: 25px 0px;
+}
+/* teams styles end */
+
