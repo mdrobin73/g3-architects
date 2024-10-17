@@ -143,3 +143,155 @@ header{
 }
 /* teams styles end */
 
+
+/* ******************* */
+/* Features and Experiences styles */
+.features-experiences{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-contents{
+    max-width: 586px;
+    margin-top: 80px;
+}
+
+.feature-contents h2{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+}
+
+.feature-contents p{
+    margin: 20px 0px;
+}
+
+.feature-contents .feature{
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 18px 38px;
+    margin-top: 25px;
+    border-radius: 7px;
+}
+
+.feature-contents .feature h3{
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.feature-contents .feature p{
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.feature-image{
+    max-width: 800px;
+}
+
+.feature-image img{
+    width: 100%;
+}
+
+.experience-badge{
+    background-color: #FF900E;
+    max-width: 342px;
+    text-align: center;
+    border-radius: 7px;
+    padding: 40px 0px;
+    transform: translate(-70px, -120px)
+}
+
+.experience-badge h2{
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.experience-badge p{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 7px;
+}
+
+/* ****************** */
+
+
+/* facts styles started */
+.facts{
+    margin: 50px auto;
+}
+
+.facts h2{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.facts p{
+    margin-top: 15px;
+    max-width: 542px;
+}
+
+.facts-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.fact-card{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 35px 25px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.fact-card img{
+    margin-bottom: 6px;
+}
+
+.fact-card h2{
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.fact-card p{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+/* Our sponsors styles started */
+.our-sponsors{
+    margin-bottom: 80px;
+}
+
+.sponsors-content{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sponsors-content h2{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.sponsors-content p{
+    max-width: 542px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.sponsors-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
